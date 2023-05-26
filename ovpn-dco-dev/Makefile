@@ -7,7 +7,7 @@ PKG_NAME:=ovpn-dco-dev
 PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/OpenVPN/ovpn-dco.git
+PKG_SOURCE_URL:=https://github.com/jordanjoewatson/ovpn-dco.git
 PKG_BRANCH:=master
 PKG_REV:=$(shell git ls-remote $(PKG_SOURCE_URL) $(PKG_BRANCH)|cut -c1-12)
 PKG_SOURCE_VERSION:=$(PKG_REV)
